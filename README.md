@@ -8,20 +8,32 @@ Instruções para executar via Postman:
 
 Primeiro iremos preparar o ambiente no Postman para executar a coleção:
 
-1 - Ter/Instalar o Postman 
-3 - Abrir o Postman
-4 - No menu "File", clicar em "Import"
-5 - Escolher a aba "Import File" e clicar no botão "Choose Files"
-6 - Selecionar o arquivo "Avaliação - Neon.postman_collection" salvo no diretório padrão e clicar em abrir
-7 - Clicar no ícone de "engrenagem" (Configurações - Então você estará com a janela de "Manage Enviroments" aberta)
-8 - Clicar no botão "Import", selecionar o arquivo "PROD SWAPI.postman_environment" salvo no diretório padrão e clicar em abrir (Pronto! Tudo certo!)
+1 - Ter/Instalar o Postman
+
+2 - Abrir o Postman
+
+3 - No menu "File", clicar em "Import"
+
+4 - Escolher a aba "Import File" e clicar no botão "Choose Files"
+
+5 - Selecionar o arquivo "Avaliação - Neon.postman_collection" salvo no diretório padrão e clicar em abrir
+
+6 - Clicar no ícone de "engrenagem" (Configurações - Então você estará com a janela de "Manage Enviroments" aberta)
+
+7 - Clicar no botão "Import", selecionar o arquivo "PROD SWAPI.postman_environment" salvo no diretório padrão e clicar em abrir (Pronto! Tudo certo!)
 
 Depois de realizar as importações:
+
 1 - Com o Postman aberto (Claro), clicar no botão "Runner" (Então abrirá a janela de "Collection Runner do Postman")
+
 2 - Selecionar a coleção "Avaliação - Neon"
+
 3 - Selecionar o enviroment "PROD SWAPI"
+
 4 - Clicar no botão de "Run"
+
 5 - Prontinho! Você consegue ver em tempo real as requisições acontecendo e quantos testes passaram/falharam! :)
+
 
 
 Caso você queira executar via Newman também é bem simples:
@@ -29,7 +41,9 @@ Caso você queira executar via Newman também é bem simples:
 Instruções (Execução via Newman):
 
 1 - Ter instalado/instalar o nodejs na máquina
+
 2 - Abrir um console (cmd; powershell, cmder, etc) e executar o comando: npm install -g newman
+
 3 - Executar o comando: newman run <collection> --environment <diretório onde fica o environment que você deseja utilizar>\<nome do environment>.json
 
 Exemplo: 
